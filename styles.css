@@ -1,1 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Zen+Dots&display=swap");
 
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Oswald", serif;
+  background-color: rgba(255, 253, 253, 0.942);
+}
+
+h1 {
+  font-size: 3.5em;
+  font-weight: 500;
+}
+h2 {
+  font-size: 2.7em;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.25em;
+  font-weight: 200;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 1.25em;
+}
+
+button {
+  font-size: 1.5em;
+  padding: 10px 30px;
+  border-radius: 15px;
+  background: linear-gradient(cyan, rgba(225, 28, 196, 0.831));
+  color: white;
+  border-color: rgb(0, 0, 0);
+  box-shadow: 0.05em 0.05em;
+  text-shadow: 0.07em 0.07em black;
+}
+
+button:hover {
+  font-size: 1.55em;
+  padding: 10px 30px;
+  border-radius: 15px;
+  background: linear-gradient(rgba(149, 19, 130, 0.831), rgb(7, 178, 178));
+  color: white;
+  border-color: black;
+  box-shadow: 0.05em 0.05em black;
+  text-shadow: 0.07em 0.07em black;
+}
+
+.image-container,
+section {
+  max-width: 1150px;
+  margin: auto;
+}
+
+header {
+  background: rgba(233, 230, 230, 0.831);
+}
+
+header .logo {
+  font-weight: 300;
+  font-size: 2.7em;
+  margin: 0;
+  padding: 25px 30px;
+  background: linear-gradient(to right, cyan, rgba(225, 28, 196, 0.831));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+header .image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-weight: 300;
+}
+
+a:hover {
+  background: linear-gradient(rgba(149, 19, 130, 0.831), rgb(7, 178, 178));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 1.5em;
+}
+
+#hero {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/main-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+h1 {
+  background: linear-gradient(rgba(225, 28, 196, 0.831), cyan);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
